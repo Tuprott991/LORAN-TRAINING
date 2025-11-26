@@ -1,8 +1,8 @@
 ## Model Architecture
 
-### LORAN: Multi-Vector Retrieval with Late Interaction
+### LongMatrix: Multi-Vector Retrieval with Late Interaction
 
-The LORAN model is a lightweight neural retrieval architecture inspired by ColBERT but optimized for efficiency and adaptability.
+The LongMatrix model is a lightweight neural retrieval architecture inspired by ColBERT but optimized for efficiency and adaptability.
 
 #### Architecture Components
 
@@ -79,7 +79,7 @@ The model is trained with a composite loss:
 
 ## Training Pipeline
 
-**make sure you pip install -r requirements.txt before training LORAN**
+**make sure you pip install -r requirements.txt before training LongMatrix**
 
 ### Phase 1: Pre-training on MSMARCO v2.1
 
