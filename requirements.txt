@@ -1,0 +1,29 @@
+# Core Deep Learning
+# For GPU support (CUDA 11.8):
+#   pip install torch>=2.0.0 --index-url https://download.pytorch.org/whl/cu118
+# For GPU support (CUDA 12.1):
+#   pip install torch>=2.0.0 --index-url https://download.pytorch.org/whl/cu121
+# For CPU only:
+#   pip install torch>=2.0.0 --index-url https://download.pytorch.org/whl/cpu
+# torch>=2.0.0
+transformers>=4.30.0
+numpy>=1.24.0
+
+# Data Processing
+pyyaml>=6.0
+tqdm>=4.65.0
+
+# Optional: Sentence Transformers for embeddings
+sentence-transformers>=2.2.0
+
+# Optional: FAISS for vector indexing
+faiss-cpu>=1.7.4  # Use faiss-gpu if CUDA is available
+
+# Optional: Experiment tracking
+wandb>=0.15.0
+
+# Distributed Training
+# torch.distributed is included with PyTorch
+
+# Development Tools (optional)
+pytest>=7.4.0
