@@ -79,6 +79,8 @@ The model is trained with a composite loss:
 
 ## Training Pipeline
 
+**make sure you pip install -r requirements.txt before training LORAN**
+
 ### Phase 1: Pre-training on MSMARCO v2.1
 
 The model is pre-trained on the [MSMARCO v2.1](https://microsoft.github.io/msmarco/) passage ranking dataset, which contains millions of real web search queries paired with relevant passages.
